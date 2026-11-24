@@ -15,9 +15,8 @@
 #include <ESP8266WiFi.h>
 #include <espnow.h>
 
-// REPLACE WITH RECEIVER MAC Address
-// ESP32 S3 : 44:b1:76:cd:61:a0
-uint8_t broadcastAddress[] = {0x44, 0xB1, 0x76, 0xCD, 0x61, 0xA0};
+// REPLACE WITH RECEIVER MAC Address ; here is an exemple for AA:BB:CC:DD:11:22
+uint8_t broadcastAddress[] = {0xAA, 0xBB, 0xCC, 0xDD, 0x11, 0x22};
 
 // Structure example to send data
 // Must match the receiver structure
